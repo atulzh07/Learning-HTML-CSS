@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+    <head> <!--Meta tag defines the metadata of the webpage. The metadata will not be displayed in the webpage-->
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width">
+        <title>Soccer Quiz</title>
+    </head>
+
+    <header>
+        <h5>Let's test how much you know about football</h5>
+    </header>
+    
+    <hr> <!--Using the HR tag, I have created a line between the header section and the body section -->
+    <hr>
+    <body>
+
+        <div>
+            <p>Before playing this quiz please enter your name</p>
+
+            <!--Used form tag to here where the user will input his/her name-->
+
+            <form action="/action_page.php">
+                <label for="fname">First name:</label>
+                <input type="text" id="fname" name="fname"><br><br>
+                <label for="lname">Last name:</label>
+                <input type="text" id="lname" name="lname"><br><br>
+            </form>
+        </div>
+
+        <hr>
+
+        <h2>Let the quiz begin </h2>
+
+        <ol>
+            <!--Using input tag to take input from the user-->
+            <li>
+                <p>Which team is nicknamed 'The Blades' in Barclays Premier League?</p>
+                <label for="blades">The Blades:</label>
+                <input type="text" id="blades" name="blades"><br>
+            </li>
+
+            <li> <!--Using Iframe tag to add a youtube video in HTML-->
+                <p>What is the nationality of the goalkeeper making the save?</p>
+                <iframe width="420" height="315"
+                src="https://www.youtube.com/embed/UhHPaaJsyZI?autoplay=1">       <!--The format for embedding youtube videos in HTML is youtube.com/embed/videoid-->
+                </iframe><br><br>
+
+                <label for="sommer">Player nationality:</label>
+                <input type="text" id="sommer" name="sommer"><br>
+            </li><br>
+
+            <li> <!--Using select tag here in which user will be able to select a value from a list of options-->
+                <label for="keepers">Who has the highest clean sheets in premier league 19/20 season?</label><br><br>
+
+                    <select name="keepers" id="keepers">
+                    <option value="Nick Pope">Nick Pope</option>
+                    <option value="Ederson Morares">Ederson Morares</option>
+                    <option value="Dean Henderson">Dean Henderson</option>
+                    <option value="Kepa Arizzabalaga">Kepa Arizzabalaga</option>
+                </select>
+            </li><br>
+        
+
+        </ol>
+        
+    </body>
+
+    <hr><hr>
+    <input type="submit" value="Submit">
+</html>
