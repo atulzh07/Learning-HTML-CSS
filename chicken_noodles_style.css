@@ -1,0 +1,43 @@
+body{
+    background-color: grey;
+    opacity: 2.0;
+    padding: 30px 500px 10px 500px;
+    background-image: url(https://www.freecodecamp.org/news/content/images/size/w2000/2020/04/w-qjCHPZbeXCQ-unsplash.jpg);
+}
+
+/*"https://www.freecodecamp.org/news/how-to-add-an-image-url-to-your-div/" This is the website from which i learnt i used the styling property named background-image to add background*/
+
+h1{
+    font-style: bold;
+    text-decoration: underline;
+    
+}
+
+.subtitle{
+    font-size: medium;
+}
+
+.main_recipe{
+    font-weight: bolder;
+    font: medium;
+    
+}
+
+.secondary_recipe{
+    font-size:small;
+}
+
+.items{
+    font-style: italic;
+    color: white;
+}
+
+h3{
+    padding: 40px;
+}
+
+p{
+    color:white;
+}
+
+
