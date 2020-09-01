@@ -1,0 +1,129 @@
+body{
+    background-color: grey;
+    opacity: 2.0;
+    /*padding: 30px 500px 10px 500px;*/
+    font-family: "Lucida Sans", sans-serif;
+    background-image: url(https://www.freecodecamp.org/news/content/images/size/w2000/2020/04/w-qjCHPZbeXCQ-unsplash.jpg);*/
+}
+
+/*"https://www.freecodecamp.org/news/how-to-add-an-image-url-to-your-div/" This is the website from which i learnt i used the styling property named background-image to add background*/
+
+ul { list-style: none; } /* Remove default bullets */
+
+li::before {
+    content: "\261E"; /* Unicode bullet symbol */
+    color: black;  /* Bullet color */
+	
+	/* Optional tweaks */
+    font-weight: bold;
+    padding-right: 10px;
+}
+
+ol { list-style-type: upper-roman ; }
+
+
+h1{
+    font-style: bold;
+    
+    text-align: center;
+    background-color: teal;
+    color: white;
+    font-family: cursive;
+}
+
+.subtitle{
+    font-size: medium;
+}
+
+.main_recipe{
+    font-weight: bolder;
+    font: medium;
+    
+}
+
+.secondary_recipe{
+    font-size:small;
+}
+
+
+
+h3{
+    padding: 10px;
+    background-color:green;
+    
+}
+
+p{
+    text-align: center;
+}
+
+.bonus1{
+    color: black;
+    text-align: center;
+}
+
+#note{
+    text-align: left;
+}
+
+ul{
+    color: rgb(51, 99, 55);
+}
+
+#items{
+    color: white;
+}
+
+#link{
+    color: white;
+}
+
+#bonus{
+    color: green;
+    background-color: white;
+}
+
+#urls{
+    padding-left: 10%;
+
+}
+
+.mail{
+    padding-top: 30px;
+    padding-left: 30px;
+}
+
+.highlight{
+    color: red;
+}
+
+span{
+    font-style: italic;
+}
+
+@media (max-width:400px) {
+    p {
+        font-size: 100%;
+    }
+}
+
+@media (min-width:401px and max-width:750px) {
+    ul {
+        font-size: 100%;
+        color: black;
+    }
+}
+
+@media (min-width:100%) {
+    ol {
+        font-size: 100%;
+        color: chartreuse;
+    }
+}
+
+@media (max-width:100%) {
+    p {
+        font-size: 100%;
+        color: darkblue;
+    }
+}
