@@ -1,0 +1,143 @@
+header{
+    text-align: center;
+    font-family: Linux Libertine,Hoefler Text,Georgia,Times New Roman,Times,serif;
+}
+/*0 margin 0 padding in body*/
+.wiki{
+    font-size: 40px;
+    margin-bottom: 0px;
+}
+
+#large{
+    font-size: 60px;
+}
+
+ul{
+    list-style-type: none;
+}
+
+/* #slogan{
+
+}
+
+body{
+    
+}
+
+.center_image{
+    
+} */
+
+.image {
+    position: relative;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    width: 17%;  
+}
+
+.left_span{
+    width: 500px;
+    height: auto;
+    position: absolute;
+    left: 600px;
+    top: 150px;
+}
+
+.right_span{
+    width: 400px;
+    height: auto;
+    position: absolute;
+    right: 400px;
+    top: 150px;
+}
+
+#eng{
+    position: absolute;
+    top: 0px;
+    left: 120px;
+    
+} 
+
+#esp{
+    position: absolute;
+    top: 60px;
+    left: 70px;
+    padding-top: 10px;
+}
+
+#fra{
+    position: absolute;
+    top: 120px;
+    left: 40px;
+    padding-top: 20px;
+}
+
+#ita{
+    position: absolute;
+    top: 180px;
+    left:70px;
+    padding-top: 20px;
+}
+
+#por{
+    position: absolute;
+    top: 240px;
+    left:120px;
+    padding-top: 20px;
+}
+
+#jap{
+    position: absolute;
+    top: 0px;
+    right: 290px;
+}
+
+#deu{
+    position: absolute;
+    top: 60px;
+    right: 250px;
+    padding-top: 20px;
+}
+
+#rus{
+    position: absolute;
+    top: 120px;
+    right: 220px;
+    padding-top: 20px;
+}
+
+#chi{
+    position: absolute;
+    top: 180px;
+    right: 250px;
+    padding-top: 20px;
+}
+
+#pol{
+    position: absolute;
+    top: 240px;
+    right: 290px;
+    padding-top: 20px;
+}
+
+
+.language{
+    font-weight: bold;
+    color: blue;
+    text-align: center;
+}
+
+footer{
+    text-align: center;
+    font-size: small;
+    padding-top: 300px;
+}
+
+footer pre span{
+    color: blue;
+}
+
+
+
+
