@@ -182,21 +182,293 @@ ul{
   font-size: small;
 }
 
-.line{
+/* .line{
   margin: 15px;
   height: 1px;
   position: absolute;
   display: inline-block;
   bottom: auto;
+} */
+
+.wikimedia{
+  width: 350px;
+  height: 60px;
+  position: absolute;
+  bottom: 250px;
+  left:150px;
 }
 
+.firefox{
+  width=40px;
+  height: 40px;
+  position: absolute;
+  bottom: 5px;
+  left: 20px;
+}
+
+.img_commons{
+  width=40px;
+  height: 40px;
+  position: absolute;
+  bottom: 2px;
+  left: 30px;
+  margin: 2px;
+  top: 1px;
+}
+
+.commons{
+  width: 200px;
+  height: 60px;
+  position: absolute;
+  bottom: 250px;
+  left:700px;
+}
+
+.img_wikivoyage{
+  width=40px;
+  height: 40px;
+  position: absolute;
+  bottom: 2px;
+  left: 30px;
+  margin: 2px;
+  top: 1px;
+}
+
+.wikivoyage{
+  width: 200px;
+  height: 60px;
+  position: absolute;
+  bottom: 250px;
+  right:630px;
+}
+
+.img_wiktionary{
+  width=40px;
+  height: 40px;
+  position: absolute;
+  bottom: 2px;
+  left: 30px;
+  margin: 2px;
+  top: 1px;
+}
+
+.wiktionary{
+  width: 200px;
+  height: 60px;
+  position: absolute;
+  bottom: 250px;
+  right:300px;
+}
+
+.img_wikibooks{
+  width=40px;
+  height: 40px;
+  position: absolute;
+  bottom: 2px;
+  left: 30px;
+  margin: 2px;
+  top: 1px;
+}
+
+.wikibooks{
+  width: 200px;
+  height: 60px;
+  position: absolute;
+  top: 800px;
+  left:700px;
+}
+
+.img_wikinews{
+  width=40px;
+  height: 40px;
+  position: absolute;
+  bottom: 2px;
+  left: 30px;
+  margin: 2px;
+  top: 1px;
+}
+
+.wikinews{
+  width: 200px;
+  height: 60px;
+  position: absolute;
+  top: 800px;
+  right:630px;
+}
+
+.img_wikidata{
+  width= 40px;
+  height: 40px;
+  position: absolute;
+  bottom: 2px;
+  left: 65px;
+  /* margin: 2px; */
+  top: 1px;
+}
+
+.wikidata{
+  width: 200px;
+  height: 60px;
+  position: absolute;
+  top: 10px;
+  right:-302px;
+}
+
+.img_wikiversity{
+  width=40px;
+  height: 40px;
+  position: absolute;
+  bottom: 300px;
+  right: 125px;
+  margin: 2px;
+  top: 1px;
+}
+
+.wikiversity{
+  width: 200px;
+  height: 60px;
+  position: absolute;
+  top: 110px;
+  left:340px;
+}
+
+.img_wikiquote{
+  width=40px;
+  height: 40px;
+  position: absolute;
+  bottom: 2px;
+  left: 30px;
+  margin: 2px;
+  top: 1px;
+}
+
+.wikiquote{
+  width: 200px;
+  height: 60px;
+  position: absolute;
+  top: 110px;
+  right:370px;
+}
+
+.img_mediawiki{
+  width= 40px;
+  height: 40px;
+  position: absolute;
+  bottom: 2px;
+  left: 55px;
+  margin: 2px;
+  top: 1px;
+}
+
+.mediawiki{
+  width: 200px;
+  height: 60px;
+  position: absolute;
+  top: 0px;
+  right:-350px;
+}
+/* Last Line */
+.img_wikisource{
+  width=40px;
+  height: 40px;
+  position: absolute;
+  bottom: 300px;
+  right: 125px;
+  margin: 2px;
+  top: 1px;
+}
+
+.wikisource{
+  width: 200px;
+  height: 60px;
+  position: absolute;
+  top: 100px;
+  left:720px;
+}
+
+.img_wikispecies{
+  width=40px;
+  height: 40px;
+  position: absolute;
+  bottom: 2px;
+  left: 30px;
+  margin: 2px;
+  top: 1px;
+}
+
+.wikispecies{
+  width: 200px;
+  height: 60px;
+  position: absolute;
+  top: 90px;
+  right:0px;
+}
+
+.img_meta-wiki{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  bottom: 2px;
+  left: 55px;
+  margin: 2px;
+  top: 1px;
+}
+
+.meta-wiki{
+  width: 200px;
+  height: 60px;
+  position: absolute;
+  top: 10px;
+  right:-350px;
+}
+
+.img_wiki{
+  width: 40px;
+  height: 40px;
+  position: absolute;
+  left: 30px;
+}
+
+.download{
+  background-color: rgb(250, 245, 245);
+
+  width: 500px;
+  height: 200px;
+  position: absolute;
+  bottom: 20px;
+  left: 140px;
+}
+
+.google_play{
+  width: 150px;
+  height: 140px;
+  position: absolute;
+  left: 70px;
+  bottom: -30px;
+}
+
+.apple_store{
+  width: 150px;
+  height: 165px;
+  position: absolute;
+  left: 220px;
+  bottom: -42px;
+}
+
+.title_download{
+  color: blue;
+  font-size: larger;
+}
+
+.highlight{
+  color: blue;
+}
 
 footer{
     text-align: center;
     font-size: small;
-    padding-top: 200px;
+    padding-top: 600px;
 }
-
 
 footer pre span{
     color: blue;
