@@ -15,7 +15,7 @@ body{
     margin-bottom: 0px;
 }
 
-#large{
+.large{
     font-size: 60px;
 }
 
@@ -23,7 +23,7 @@ ul{
     list-style-type: none;
 }
 
-.image {
+.image{
     position: relative;
     display: block;
     margin-right: auto;
@@ -31,7 +31,7 @@ ul{
     width: 17%;  
 }
 
-.left_span{
+.left-span{
     width: 500px;
     height: auto;
     position: absolute;
@@ -39,7 +39,7 @@ ul{
     top: 150px;
 }
 
-.right_span{
+.right-span{
     width: 400px;
     height: auto;
     position: absolute;
@@ -122,22 +122,6 @@ ul{
     text-align: center;
 }
 
-/* .search_text{
-  position: absolute;
-  bottom:430px;
-  left: 780px;
-  height: 45px;
-  width: 452px;
-}
-.lang_text{
-
-}
-
-.searchbutton{
-  height: 20px;
-  width: 30px;
-} */
-
 .sb-example-1 {
   position: absolute;
   bottom:430px;
@@ -167,7 +151,7 @@ ul{
   text-align: center;
 }
 
-.read_wiki{
+.read-wiki{
   position: relative;
   display: block;
   bottom:500px;
@@ -182,14 +166,6 @@ ul{
   font-size: small;
 }
 
-/* .line{
-  margin: 15px;
-  height: 1px;
-  position: absolute;
-  display: inline-block;
-  bottom: auto;
-} */
-
 .wikimedia{
   width: 350px;
   height: 60px;
@@ -199,15 +175,15 @@ ul{
 }
 
 .firefox{
-  width=40px;
+  width: 40px;
   height: 40px;
   position: absolute;
   bottom: 5px;
   left: 20px;
 }
 
-.img_commons{
-  width=40px;
+.img-commons{
+  width: 40px;
   height: 40px;
   position: absolute;
   bottom: 2px;
@@ -224,8 +200,8 @@ ul{
   left:700px;
 }
 
-.img_wikivoyage{
-  width=40px;
+.img-wikivoyage{
+  width: 40px;
   height: 40px;
   position: absolute;
   bottom: 2px;
@@ -242,8 +218,8 @@ ul{
   right:630px;
 }
 
-.img_wiktionary{
-  width=40px;
+.img-wiktionary{
+  width: 40px;
   height: 40px;
   position: absolute;
   bottom: 2px;
@@ -260,8 +236,8 @@ ul{
   right:300px;
 }
 
-.img_wikibooks{
-  width=40px;
+.img-wikibooks{
+  width: 40px;
   height: 40px;
   position: absolute;
   bottom: 2px;
@@ -278,8 +254,8 @@ ul{
   left:700px;
 }
 
-.img_wikinews{
-  width=40px;
+.img-wikinews{
+  width: 40px;
   height: 40px;
   position: absolute;
   bottom: 2px;
@@ -296,13 +272,12 @@ ul{
   right:630px;
 }
 
-.img_wikidata{
-  width= 40px;
+.img-wikidata{
+  width: 40px;
   height: 40px;
   position: absolute;
   bottom: 2px;
   left: 65px;
-  /* margin: 2px; */
   top: 1px;
 }
 
@@ -314,8 +289,8 @@ ul{
   right:-302px;
 }
 
-.img_wikiversity{
-  width=40px;
+.img-wikiversity{
+  width: 40px;
   height: 40px;
   position: absolute;
   bottom: 300px;
@@ -332,8 +307,8 @@ ul{
   left:340px;
 }
 
-.img_wikiquote{
-  width=40px;
+.img-wikiquote{
+  width: 40px;
   height: 40px;
   position: absolute;
   bottom: 2px;
@@ -350,8 +325,8 @@ ul{
   right:370px;
 }
 
-.img_mediawiki{
-  width= 40px;
+.img-mediawiki{
+  width: 40px;
   height: 40px;
   position: absolute;
   bottom: 2px;
@@ -367,9 +342,9 @@ ul{
   top: 0px;
   right:-350px;
 }
-/* Last Line */
-.img_wikisource{
-  width=40px;
+
+.img-wikisource{
+  width: 40px;
   height: 40px;
   position: absolute;
   bottom: 300px;
@@ -386,8 +361,8 @@ ul{
   left:720px;
 }
 
-.img_wikispecies{
-  width=40px;
+.img-wikispecies{
+  width: 40px;
   height: 40px;
   position: absolute;
   bottom: 2px;
@@ -404,7 +379,7 @@ ul{
   right:0px;
 }
 
-.img_meta-wiki{
+.img-meta-wiki{
   width: 40px;
   height: 40px;
   position: absolute;
@@ -422,7 +397,7 @@ ul{
   right:-350px;
 }
 
-.img_wiki{
+.img-wiki{
   width: 40px;
   height: 40px;
   position: absolute;
@@ -431,7 +406,6 @@ ul{
 
 .download{
   background-color: rgb(250, 245, 245);
-
   width: 500px;
   height: 200px;
   position: absolute;
@@ -439,7 +413,7 @@ ul{
   left: 140px;
 }
 
-.google_play{
+.google-play{
   width: 150px;
   height: 140px;
   position: absolute;
@@ -447,7 +421,7 @@ ul{
   bottom: -30px;
 }
 
-.apple_store{
+.apple-store{
   width: 150px;
   height: 165px;
   position: absolute;
@@ -455,7 +429,7 @@ ul{
   bottom: -42px;
 }
 
-.title_download{
+.title-download{
   color: blue;
   font-size: larger;
 }
